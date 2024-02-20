@@ -6,3 +6,6 @@ print("here are the contents of the file:")
 print(fd.read())
 
 fd.close()
+
+with open(file_name) as fd:
+    print()
